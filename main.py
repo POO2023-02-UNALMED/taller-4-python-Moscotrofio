@@ -2,9 +2,10 @@ from classroom.asignatura import Asignatura
 from classroom.grupo import Grupo
 
 if __name__ == "__main__":
-    asignatura1 = Asignatura("Matematicas")
+    asignatura1 = Asignatura("Matematicas Remoto")
     asignatura2 = Asignatura("Castellano", "Salon 201")
     grupo1 = Grupo()
+    grupo1.asignarNombre("Grado 12")
 
     print(asignatura1)
     print(grupo1)

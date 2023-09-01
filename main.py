@@ -30,8 +30,6 @@ if __name__ == "__main__":
     Grupo.asignarNombre("Grado 1")
     print(Grupo.grado)
     Grupo.asignarNombre()
+    Grupo.asignarNombre("Grado 6")
     print(Grupo.grado)
     
-    asignatura1 = Asignatura("Vision por Computador")
-    asignatura2 = Asignatura("POO", "Salon 503B")
-    print(asignatura2._nombre)
